@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  dvwa:
+    image: kaakaww/dvwa-docker:latest
+    container_name: dvwa
+    ports:
+      - "80:80"
+    restart: unless-stopped
