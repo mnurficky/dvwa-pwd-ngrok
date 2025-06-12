@@ -8,7 +8,7 @@ Before starting, ensure you have the following:
 
 - 🐳 [Play With Docker Account](https://labs.play-with-docker.com/)
 - 🌐 [Ngrok Account](https://dashboard.ngrok.com/endpoints)  
-  After registering, get your **Ngrok Authtoken** from the [auth token page](https://dashboard.ngrok.com/get-started/setup).
+- After registering, get your **Ngrok Authtoken** from the [auth token page](https://dashboard.ngrok.com/get-started/setup).
 
 ---
 
