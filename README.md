@@ -98,7 +98,7 @@ services:
       - dvwa
     environment:
       NGROK_AUTHTOKEN: {YOUR_NGROK_TOKEN}
-    command: http host.docker.internal:80
+    command: http dvwa:80
 
 ```
 ### 2. Start DVWA using Docker Compose
