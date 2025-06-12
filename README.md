@@ -41,3 +41,14 @@ services:
     ports:
       - "80:80"
     restart: unless-stopped
+```
+### 2. Start DVWA using Docker Compose
+docker-compose up -d
+
+### 3. Pull Ngrok Docker Image
+docker pull ngrok/ngrok
+
+### 4. Run Ngrok to Expose Port 80
+```
+docker run --net=host -it -e NGROK_AUTHTOKEN={YOUR_NGROK_TOKEN} --name ngrok ngrok/ngrok:latest http 80
+```
